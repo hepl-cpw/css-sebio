@@ -1,0 +1,123 @@
+* { margin: 0; padding: 0; }
+
+html {
+  background: #e1ded9;
+}
+
+body {
+  font: normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+main {
+  width: 540px;
+  margin: 30px auto;
+  background: white;
+  border-right: 1px solid #cacaca;
+}
+
+header {
+  height: 100px;
+  margin: 0 auto 15px;
+  background: #f5f2f0 url( ../img/banniere.png ) center bottom no-repeat;
+  background-size: cover;
+  font-size: 0;
+}
+
+#banner {
+  margin: 0 15px 15px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+section {
+  padding: 15px;
+}
+
+section h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #597007;
+}
+
+section article {
+  margin: 0 auto 20px;
+}
+
+article h2 {
+  margin-bottom: .25em;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+article p {
+  margin-bottom: .5em;
+  font-size: .875em;
+}
+
+article p strong {
+  color: #597007;
+}
+
+hr {
+  height: 1px;
+  margin-bottom: 15px;
+  background: #e4e4e4;
+  border: 0;
+}
+
+.socials a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.services {
+  vertical-align: top;
+}
+
+.services > div {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.services h3 {
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-size: .875em;
+  font-weight: normal;
+  color: #597007;
+}
+
+h3.service-selection {
+  background-image: url( ../img/etoile.gif );
+}
+h3.service-delivery {
+  background-image: url( ../img/camion.gif );
+}
+h3.service-security {
+  background-image: url( ../img/cadenas.gif );
+}
+h3.service-customers {
+  background-image: url( ../img/telephone.gif );
+}
+
+.services p {
+  padding: 0 10px;
+  font-size: .6875em;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #8c4f51;
+  font-size: .6875em;
+  color: white;
+  text-align: center;
+}
+
+footer address {
+  font-style: normal;
+}
